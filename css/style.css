@@ -12,6 +12,7 @@
 
 body {
     background-color: #f0f0f0;
+    overflow-x: hidden;
 }
 
 html {
@@ -833,6 +834,7 @@ html {
         height: 60px;
         line-height: 60px;
         justify-content: space-around;
+        max-width: 100%;
     }
 
     .search_input-tablet {
@@ -865,6 +867,10 @@ html {
         margin-top: 22px;
     }
 
+    .content {
+        max-width: 100%;
+    }
+
     .category_main {
         display: none;
     }
@@ -873,6 +879,7 @@ html {
         width: 100%;
         margin: 0;
         height: 190px;
+        max-width: 100%;
     }
     .content .slider_img {
         width: 100%;
@@ -880,6 +887,10 @@ html {
 
     .content .list_banner {
         display: none;
+    }
+
+    .content .list_item {
+        max-width: 100%;
     }
 
     .content .item_nav {
@@ -949,6 +960,10 @@ html {
         top: 19px;
         left: 244px;
         border-radius: 5px;
+    }
+
+    .footer {
+        max-width: 100%;
     }
 
     .footer .footer_main {
