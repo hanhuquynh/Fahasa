@@ -910,7 +910,7 @@ html {
     }
 
     .content .item_nav {
-        width: 80px;
+        width: 70px;
         margin-bottom: 16px;
     }
 
@@ -935,6 +935,24 @@ html {
         width: 50%;
     }
 
+    .content .text_finish {
+        display: none;
+    }
+
+    .content .colon {
+        position: absolute;
+        top: -2px;
+        left: 199px;
+        font-weight: bold;
+    }
+    
+    .content .colon_two {
+        position: absolute;
+        top: -2px;
+        left: 245px;
+        font-weight: bold;
+    }
+
     .footer .left {
         height: 20px;
     }
@@ -954,8 +972,10 @@ html {
     }
 
     .footer .register_btn {
-        top: 20px;
+        height: 45px;
+        top: 19px;
         left: 244px;
+        border-radius: 5px;
     }
 
     .footer .footer_main {
@@ -964,7 +984,7 @@ html {
 
     .footer .service {
         flex-wrap: wrap;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .footer .col-1 {
@@ -983,7 +1003,8 @@ html {
     }
 
     .footer .contact {
-        margin-left: 8px;
+        margin-left: 16px;
+        padding-bottom: 24px;
     }
 
     .footer .ship {
