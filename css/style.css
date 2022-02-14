@@ -281,30 +281,6 @@ html {
     font-weight: bold;
 }
 
-.content .header_flash_sale::before {
-    content: "";
-    position: absolute;
-    width: 1px;
-    height: 25px;
-    background-color: var(--black-color);
-    left: 156px;
-    top: 12px;
-}
-
-.content .colon {
-    position: absolute;
-    top: -2px;
-    left: 324px;
-    font-weight: bold;
-}
-
-.content .colon_two {
-    position: absolute;
-    top: -2px;
-    left: 370px;
-    font-weight: bold;
-}
-
 .content .flase_sale_list {
     display: flex;
     justify-content: space-around;
@@ -478,7 +454,7 @@ html {
     color: var(--white-color);
     border: none;
     position: absolute;
-    top: 19px;
+    top: 20px;
     right: 0px;
     border-radius: 2px;
     cursor: pointer;
@@ -705,7 +681,7 @@ html {
     }
 
     .search_input-tablet {
-        width: 625px;
+        width: 600px;
         height: 33px;
         padding: 8px;
         outline: none;
@@ -742,7 +718,6 @@ html {
     .content .slider {
         width: 100%;
         margin: 0;
-        padding: 0 8px 0 8px;
     }
     .content .slider_img {
         width: 100%;
@@ -750,7 +725,6 @@ html {
 
     .content .list_banner {
         height: 150px;
-        padding: 0 8px 0 8px;
     }
 
     .content .item_nav {
@@ -888,7 +862,6 @@ html {
         font-size: 20px;
         color: var(--white-color);
         margin-left: 8px;
-        margin-right: 8px;
         margin-top: 22px;
     }
 
@@ -899,7 +872,6 @@ html {
     .content .slider {
         width: 100%;
         margin: 0;
-        padding: 0 8px 0 8px;
         height: 190px;
     }
     .content .slider_img {
